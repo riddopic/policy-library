@@ -2,7 +2,7 @@
 # To push a new image, run 'gcloud builds submit --project=config-validator --tag gcr.io/config-validator/make .'
 # from this directory.
 
-FROM debian
+FROM debian:11.5
 
 RUN apt-get update && apt-get install -y build-essential curl python3 python3-pip
 RUN pip3 install pyyaml
