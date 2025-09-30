@@ -17,11 +17,11 @@
   },
   "dependencies": {
     "@types/glob": "^7.1.1",
-    "@types/lodash": "^4.14.157",
+    "@types/lodash": "^4.17.20",
     "@types/markdown-table": "^2.0.0",
     "glob": "^7.1.6",
     "kpt-functions": "^0.12.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "markdown-table": "^2.0.0"
   },
   "devDependencies": {
